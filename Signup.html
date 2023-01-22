@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <style>
+        .firstname{position:relative;
+        left:90px;line-height:20px;
+        width:150px;padding:0 22px;font-size:16px}
+        .lastname
+        {position:relative;
+        left:90px;line-height:20px;
+        width:150px;padding:0 22px;
+        font-size:16px;}
+        .username{position:relative;
+        left:90px;line-height:20px;
+        width:150px;padding:0 22px;
+        font-size:16px;}
+        .phonenumber{position:relative;
+        left:65px;line-height:20px;
+        width:150px;padding:0 22px;
+        font-size:16px;}
+        .email{position:relative;
+        left:110px;line-height:20px;
+        width:150px;padding:0 22px;
+        font-size:16px;}
+        .password{position:relative;
+        left:95px;line-height:20px;
+        width:150px;padding:0 22px;
+        font-size:16px;}
+        .confirmpassword{position:relative;
+        left:40px;line-height:20px;
+        width:150px;padding:0 22px;
+        font-size:16px;}
+       .gender{position:relative;
+        left:60px;line-height:10px;
+        width:120px;}
+
+
+    </style>
+    <title>SignUp</title>
+</head>
+<h1>Sign Up</h1>
+<body>
+<form method="post"action="welcome.html">
+    <label class="name">FirstName: </label>
+    <input class="firstname" type="text"name="firstname"><br>
+    <br>
+    <label class="name"> LastName: </label>
+    <input class="lastname" type="text"name="lastname"><br>
+    <br>
+    <label> Username: </label>
+    <input class="username" type="text"name="username"><br>
+    <br>
+        <label> phonenumber: </label>
+    <input class="phonenumber" type="tel"name="number"><br>
+    <br>
+        <label> gender: </label>
+        <input class="gender" type="radio" name="gender" value="male"> Male
+<input class="gender" type="radio" name="gender" value="female"> female <br>
+
+<!--    <input type="radio"value="male"><br>-->
+       <br> <label> E-mail:</label>
+    <input class="email" type="email"name="email"><br>
+    <br>
+    <label> password: </label>
+    <input  class="password" type="password" name="password"><br>
+    <br>
+    <label> confirm password: </label>
+    <input class="confirmpassword" type="password"name="password"><br>
+    <br>
+    <input class="box" type="checkbox"><label> I Accept Terms and Condition</label>
+    <br><br>
+    <input type="submit"><br>
+</form>
+</body>
+</html>
